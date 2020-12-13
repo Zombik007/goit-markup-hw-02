@@ -1,0 +1,202 @@
+/* Оглашение переменных */
+:root {
+  --main-text-color: #757575;
+  --text-caption-color: #212121;
+  --color-white: #fff;
+  --accent-color: #2196f3;
+}
+
+/* Применение наследуемых стилей */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-text-color);
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+/* Убирается подчеркивание ссылок */
+a {
+  text-decoration: none;
+}
+
+/* Убираются точки для маркированного списка */
+li {
+  list-style: none;
+}
+
+/* Общие стили для Logo */
+.logo-text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.19em;
+}
+
+/* Цвет частички Web на Logo */
+.logo-header-web,
+.logo-footer-web {
+  color: var(--accent-color);
+}
+
+/* Цвет частички Studio на Logo */
+.logo-header-studio {
+  color: #000;
+}
+
+/* Общие стили для отображения текста ссылок в шапке */
+.header-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
+}
+
+/* Цвет текста ссылок в шапке */
+.header-nav-link {
+  color: var(--text-caption-color);
+}
+
+/* Цвет текста ссылок в шапке при наведении */
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--accent-color);
+}
+
+/* Цвет текста контактов в шапке */
+.header-contacts-mail,
+.header-contacts-tel {
+  color: var(--main-text-color);
+}
+
+/* Цвет текста контактов в шапке при наведении */
+.header-contacts-mail:hover,
+.header-contacts-mail:focus,
+.header-contacts-tel:hover,
+.header-contacts-tel:focus {
+  color: var(--accent-color);
+}
+
+/* Фоновый цвет секции "Герой" */
+.hero {
+  background: #2f303a;
+}
+
+/* Общие стили для  */
+.hero-caption {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36em;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+
+.hero-link {
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--color-white);
+}
+
+.hidden-text {
+  display: none;
+}
+.features-caption {
+  font-size: 14px;
+  line-height: 1.14em;
+  text-transform: uppercase;
+  color: var(--text-caption-color);
+}
+
+.features-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71em;
+}
+
+.occupation-caption {
+  font-size: 36px;
+  line-height: 1.17em;
+  text-align: center;
+  color: var(--text-caption-color);
+}
+
+.team-caption {
+  font-size: 36px;
+  line-height: 1.17em;
+  text-align: center;
+  color: var(--text-caption-color);
+}
+
+.item-caption {
+  font-weight: 500;
+  line-height: 19px;
+  text-align: center;
+  color: var(--text-caption-color);
+}
+
+.item-text {
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-footer-studio {
+  color: var(--color-white);
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71em;
+}
+
+.footer-address-item {
+  color: var(--color-white);
+}
+
+.footer-contacts-mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts-tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* CSS страницы портфолио */
+
+.filter-item {
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  color: var(--text-caption-color);
+}
+
+/* .projects-list {
+  display: grid;
+  grid-template-columns: 370px 370px 370px;
+  grid-auto-rows: 404px;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  justify-content: center;
+} */
+
+.projects-caption {
+  font-size: 18px;
+  line-height: 2em;
+  letter-spacing: 0.06em;
+  color: var(--text-caption-color);
+}
+
+.projects-text {
+  font-weight: 400;
+  line-height: 30px;
+}
