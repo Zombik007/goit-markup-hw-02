@@ -58,7 +58,7 @@ li {
 }
 
 .current {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* Цвет текста ссылок в шапке при наведении */
@@ -201,6 +201,11 @@ li {
   color: var(--text-caption-color);
 }
 
+/* Стили кнопок при наведении */
+.filter-item:hover,
+.filter-item:focus {
+  color: var(--accent-color);
+}
 /* Рзмещение карточек на странице "Портфолио" в виде сетки 3х3 */
 /* .projects-list {
   display: grid;
