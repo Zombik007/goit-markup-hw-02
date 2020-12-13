@@ -106,6 +106,7 @@ li {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--color-white);
+  background-color: var(--accent-color);
 }
 
 /* Стили для "невидимых" заголовков */
@@ -204,7 +205,8 @@ li {
 /* Стили кнопок при наведении */
 .filter-item:hover,
 .filter-item:focus {
-  color: var(--accent-color);
+  color: var(--color-white);
+  background-color: var(--accent-color);
 }
 /* Рзмещение карточек на странице "Портфолио" в виде сетки 3х3 */
 /* .projects-list {
