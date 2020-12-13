@@ -57,6 +57,10 @@ li {
   color: var(--text-caption-color);
 }
 
+.current {
+  color: #2196f3;
+}
+
 /* Цвет текста ссылок в шапке при наведении */
 .header-nav-link:hover,
 .header-nav-link:focus {
@@ -77,12 +81,13 @@ li {
   color: var(--accent-color);
 }
 
+/* Стили главного раздела страницы "Студия" */
 /* Фоновый цвет секции "Герой" */
 .hero {
   background: #2f303a;
 }
 
-/* Общие стили для  */
+/* Cтили для главного заголовка */
 .hero-caption {
   font-weight: 900;
   font-size: 44px;
@@ -93,6 +98,7 @@ li {
   color: var(--color-white);
 }
 
+/* Стили кнопки секции "Герой" */
 .hero-link {
   line-height: 30px;
   display: flex;
@@ -102,9 +108,12 @@ li {
   color: var(--color-white);
 }
 
+/* Стили для "невидимых" заголовков */
 .hidden-text {
   display: none;
 }
+
+/* Стили заголовков раздела "Особенности" */
 .features-caption {
   font-size: 14px;
   line-height: 1.14em;
@@ -112,12 +121,14 @@ li {
   color: var(--text-caption-color);
 }
 
+/* Стили текста раздела "Особенности" */
 .features-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71em;
 }
 
+/* Стили заголовка раздела "Чем мы занимаемся" */
 .occupation-caption {
   font-size: 36px;
   line-height: 1.17em;
@@ -125,6 +136,7 @@ li {
   color: var(--text-caption-color);
 }
 
+/* Стили заголовков раздела "Наша команда" */
 .team-caption {
   font-size: 36px;
   line-height: 1.17em;
@@ -132,6 +144,7 @@ li {
   color: var(--text-caption-color);
 }
 
+/* Стили заголовков карточек раздела "Наша команда" */
 .item-caption {
   font-weight: 500;
   line-height: 19px;
@@ -139,40 +152,48 @@ li {
   color: var(--text-caption-color);
 }
 
+/* Стили текста карточек раздела "Наша команда" */
 .item-text {
   font-weight: 400;
   line-height: 19px;
   text-align: center;
 }
 
+/* Фон подвала */
 .footer {
   background-color: #2f303a;
 }
 
+/* Стили логотипа подвала */
 .logo-footer-studio {
   color: var(--color-white);
 }
 
+/* Общие стили текста подвала */
 .footer-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71em;
 }
 
+/* Цвет адреса подвала */
 .footer-address-item {
   color: var(--color-white);
 }
 
+/* Цвет ссылки елктронной почты */
 .footer-contacts-mail {
   color: rgba(255, 255, 255, 0.6);
 }
 
+/* Цвет ссылки телефона */
 .footer-contacts-tel {
   color: rgba(255, 255, 255, 0.6);
 }
 
 /* CSS страницы портфолио */
 
+/* Стили кнопок фильтра */
 .filter-item {
   font-weight: 500;
   line-height: 26px;
@@ -180,6 +201,7 @@ li {
   color: var(--text-caption-color);
 }
 
+/* Рзмещение карточек на странице "Портфолио" в виде сетки 3х3 */
 /* .projects-list {
   display: grid;
   grid-template-columns: 370px 370px 370px;
@@ -189,6 +211,7 @@ li {
   justify-content: center;
 } */
 
+/* Стили заголовков карточек на странице "Портфолио" */
 .projects-caption {
   font-size: 18px;
   line-height: 2em;
@@ -196,6 +219,7 @@ li {
   color: var(--text-caption-color);
 }
 
+/* Стили текста карточек на странице "Портфолио" */
 .projects-text {
   font-weight: 400;
   line-height: 30px;
