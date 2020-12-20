@@ -1,4 +1,7 @@
 /* Оглашение переменных */
+* {
+  outline: 1px solid tomato;
+}
 :root {
   --main-text-color: #757575;
   --text-caption-color: #212121;
@@ -14,6 +17,14 @@ body {
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.03em;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Убирается подчеркивание ссылок */
@@ -85,6 +96,7 @@ li {
 /* Фоновый цвет секции "Герой" */
 .hero {
   background: #2f303a;
+  text-align: center;
 }
 
 /* Cтили для главного заголовка */
@@ -94,15 +106,22 @@ li {
   line-height: 1.36em;
   text-align: center;
   letter-spacing: 0.06em;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 696px;
   text-transform: uppercase;
   color: var(--color-white);
 }
 
 /* Стили кнопки секции "Герой" */
 .hero-link {
+  display: inline-block;
+  min-width: 200px;
+  border-radius: 4px;
+  padding: 10px 32px;
   line-height: 30px;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--color-white);
@@ -114,12 +133,17 @@ li {
   display: none;
 }
 
+.features-item,
+.team-list {
+  width: 270px;
+}
 /* Стили заголовков раздела "Особенности" */
 .features-caption {
   font-size: 14px;
   line-height: 1.14em;
   text-transform: uppercase;
   color: var(--text-caption-color);
+  margin-bottom: 10px;
 }
 
 /* Стили текста раздела "Особенности" */
@@ -135,6 +159,15 @@ li {
   line-height: 1.17em;
   text-align: center;
   color: var(--text-caption-color);
+  margin-top: 0;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.occupation-img {
+  margin-top: 0;
+  margin-bottom: 94px;
 }
 
 /* Стили заголовков раздела "Наша команда" */
@@ -143,6 +176,18 @@ li {
   line-height: 1.17em;
   text-align: center;
   color: var(--text-caption-color);
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-item {
+  width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Стили заголовков карточек раздела "Наша команда" */
