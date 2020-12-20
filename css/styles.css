@@ -11,7 +11,7 @@
 
 /* Применение наследуемых стилей */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--main-text-color);
   font-style: normal;
   font-size: 16px;
@@ -39,7 +39,7 @@ li {
 
 /* Общие стили для Logo */
 .logo-text {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19em;
 }
@@ -220,6 +220,7 @@ li {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71em;
+  font-style: normal;
 }
 
 /* Цвет адреса подвала */
@@ -253,15 +254,6 @@ li {
   color: var(--color-white);
   background-color: var(--accent-color);
 }
-/* Рзмещение карточек на странице "Портфолио" в виде сетки 3х3 */
-/* .projects-list {
-  display: grid;
-  grid-template-columns: 370px 370px 370px;
-  grid-auto-rows: 404px;
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
-  justify-content: center;
-} */
 
 /* Стили заголовков карточек на странице "Портфолио" */
 .projects-caption {
